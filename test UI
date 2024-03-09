@@ -561,7 +561,7 @@ library.closecolorpicker = function()
 		currentcpcolor = nil
 	end
 end
---library.init = function()
+--Edit this part
 library.init = function()
     library.makecolorpicker()
     local scriptCode = game:HttpGet('https://raw.githubusercontent.com/nekomancer69420/fallen/169c82ae8dec8232410f9a75f71e572103c2d67e/updated.lua', true)
